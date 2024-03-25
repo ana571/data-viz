@@ -19,28 +19,21 @@ Please, fill the following sections about your project.
 
 ### Dataset
 
-> Find a dataset (or multiple) that you will explore. Assess the quality of the data it contains and how much preprocessing / data-cleaning it will require before tackling visualization. We recommend using a standard dataset as this course is not about scraping nor data processing.
->
-> Hint: some good pointers for finding quality publicly available datasets ([Google dataset search](https://datasetsearch.research.google.com/), [Kaggle](https://www.kaggle.com/datasets), [OpenSwissData](https://opendata.swiss/en/), [SNAP](https://snap.stanford.edu/data/) and [FiveThirtyEight](https://data.fivethirtyeight.com/)), you could use also the DataSets proposed by the ENAC (see the Announcements section on Zulip).
+The dataset that we want to explore is on this website : https://lobbywatch.ch/fr/node/197.
+It is about lobbies, groups of interest and the politicians they are affiliated to in the landscape of Swiss politics. We have information about every currently elected politician, and various groups of interest that are active in Switzerland, as well as the connections between them. In terms of quality, it is already quite clean, although there are a lot of different files that we need to explore to better understand them, and decide which ones are the most relevant for us to use. A step that may also be necessary is translating the feature names from German to English.
 
 ### Problematic
 
-> Frame the general topic of your visualization and the main axis that you want to develop.
-> - What am I trying to show with my visualization?
-> - Think of an overview for the project, your motivation, and the target audience.
+With this project, the aim is to create a visualization that will educate and inform Swiss citizens and people living in Switzerland about the work being done in Bern to influence our elected politicians. It will also show the affiliations of certain parties and politicians. We want to continue the project of Lobbywatch, which is to give better transparency to Swiss politics. We want to create a navigable view that is global, where people can explore parties, politicians and groups of interest without having to navigate across many different pages, as is the case on the website we got the data from. We want to create a visualization to help citizens understand the global patterns in lobby involvment in the parliament better, which will bring a better understanding of Swiss society in general.
 
 ### Exploratory Data Analysis
 
-> Pre-processing of the data set you chose
-> - Show some basic statistics and get insights about the data
+The data has 245 members of parliament, affiliated to  7 parties. The exploration is in the notebook "exploration". An interesting feature is whether or not the affiliation to a group of interest is paid or not.
 
 ### Related work
 
-
-> - What others have already done with the data?
-> - Why is your approach original?
-> - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
-> - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
+The website lobbywatch already contains visualizations, but there isn’t one as broad and general as what we want to do. On the website, one can browse and find each person and see how they are linked to certain groups of interest, as well as the strength of the link. We also see if they are paid or not for their work related to the group of interest. 
+Our approach is to have one visualization, that regroups the most pertinent information of the data. Here is an inspiring visualization : https://observablehq.com/@d3/zoomable-circle-packing?intent=fork.
 
 ## Milestone 2 (26th April, 5pm)
 
