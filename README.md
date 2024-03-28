@@ -1,10 +1,10 @@
 # Project of Data Visualization (COM-480)
 
-| Student's name | SCIPER |
-| -------------- | ------ |
-|Naël Dillenbourg |288423 |
-|Victor Schneuwly |311018 |
-|Anne-Laure Tettoni |295880| 
+| Student's name     | SCIPER |
+| ------------------ | ------ |
+| Naël Dillenbourg   | 288423 |
+| Victor Schneuwly   | 311018 |
+| Anne-Laure Tettoni | 295880 |
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
@@ -15,7 +15,7 @@
 This is a preliminary milestone to let you set up goals for your final project and assess the feasibility of your ideas.
 Please, fill the following sections about your project.
 
-*(max. 2000 characters per section)*
+_(max. 2000 characters per section)_
 
 ### Dataset
 
@@ -24,29 +24,26 @@ It is about lobbies, groups of interest and the politicians they are affiliated 
 
 ### Problematic
 
-With this project, the aim is to create a visualization that will educate and inform Swiss citizens and people living in Switzerland about the work being done in Bern to influence our elected politicians. It will also show the affiliations of certain parties and politicians. We want to continue the project of Lobbywatch, which is to give better transparency to Swiss politics. We want to create a navigable view that is global, where people can explore parties, politicians and groups of interest without having to navigate across many different pages, as is the case on the website we got the data from. We want to create a visualization to help citizens understand the global patterns in lobby involvment in the parliament better, which will bring a better understanding of Swiss society in general.
+With this project, the aim is to create a visualization that will educate and inform Swiss citizens and people living in Switzerland about the work being done in Bern to influence our elected politicians. It will also show the affiliations of certain parties and politicians. We want to continue the project of [Lobbywatch](https://lobbywatch.ch/fr), which is to give better transparency to Swiss politics. We want to create a navigable view that is global, where people can explore parties, politicians and groups of interest without having to navigate across many different pages, as is the case on the website we got the data from. We want to create a visualization to help citizens understand the global patterns in lobby involvement in the parliament better, which will bring a better understanding of Swiss society in general.
 
 ### Exploratory Data Analysis
 
-The data has 245 members of parliament, affiliated to  7 parties. The exploration is in the notebook "exploration". An interesting feature is whether or not the affiliation to a group of interest is paid or not.
+The data has 245 members of parliament, affiliated to 7 parties. The exploration is in the notebook ["exploration.ipynb"](/notebooks/exploration.ipynb). An interesting feature is whether the affiliation to a group of interest is paid or not.
 
 ### Related work
 
-The website lobbywatch already contains visualizations, but there isn’t one as broad and general as what we want to do. On the website, one can browse and find each person and see how they are linked to certain groups of interest, as well as the strength of the link. We also see if they are paid or not for their work related to the group of interest. 
+The website [Lobbywatch](https://lobbywatch.ch/fr) already contains visualizations, but there isn’t one as broad and general as what we want to do. On the website, one can browse and find each person and see how they are linked to certain groups of interest, as well as the strength of the link. We also see if they are paid or not for their work related to the group of interest.
 Our approach is to have one visualization, that regroups the most pertinent information of the data. Here is an inspiring visualization : https://observablehq.com/@d3/zoomable-circle-packing?intent=fork.
 
 ## Milestone 2 (26th April, 5pm)
 
 **10% of the final grade**
 
-
 ## Milestone 3 (31st May, 5pm)
 
 **80% of the final grade**
-
 
 ## Late policy
 
 - < 24h: 80% of the grade for the milestone
 - < 48h: 70% of the grade for the milestone
-
