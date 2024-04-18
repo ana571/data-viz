@@ -40,8 +40,8 @@ Our approach is to have one visualization, that regroups the most pertinent info
 **10% of the final grade**
 
 ## Sketch of the final product :
-![Sketch](circles.png)
-![Sketch2](sketch2.png)
+![Sketch](Images/circles.png)
+![Sketch2](Images/sketch2.png)
 
 
 ## Tools, lectures needed : 
