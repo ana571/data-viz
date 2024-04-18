@@ -39,6 +39,11 @@ Our approach is to have one visualization, that regroups the most pertinent info
 
 **10% of the final grade**
 
+Sketches of the final product :
+
+Tools, lectures needed : 
+For the main visualization, we will need D3 and JavaScript, covered in lectures 2, 3, 4 (“JavaScript”, “D3”). We will also obviously need data, covered in lecture 4 (“Data”), and ours is in JSON form. We will want the visualization to be interactive (with clickable circles that zoom in or out of the visualization, and that relates to lecture 5 (“Interaction”, “Interactive D3”). We will also try to be careful with colors to create something aesthetically pleasing, as well as meaningful (certain colours will represent certain parties, to be able to give a good ensemble view) (lecture 6 “perception, color”). And lastly, we will want the visualization to be contextualized and for that, lecture 12 (“Storytelling”) will be useful.
+
 ## Milestone 3 (31st May, 5pm)
 
 **80% of the final grade**
