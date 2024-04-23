@@ -56,7 +56,7 @@ For the main visualization, we will need D3 and JavaScript, covered in lectures 
 - Extra idea : represent the statistical variance in interest groups (for example, the socialist party is very active, while the "Verts libéraux" are less active). So for example, see which parties have a lot of variance in them : some very active people, some very unactive.
 - We would also like to have a tree that shows where the user clicked, to facilitate going back up and for clarity.
 
-### Visualisation repo
+### Visualization repo
 
 In order to use [github-pages](https://pages.github.com/), we decided to host the code on our own organization's repository. The repository can be found [here](https://github.com/LaTcheam/LaTcheam.github.io/tree/main).
 
