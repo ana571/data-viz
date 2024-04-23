@@ -54,6 +54,7 @@ For the main visualization, we will need D3 and JavaScript, covered in lectures 
 - Each person's circle has the title of the related group of interest under their name, and a "$" sign if they were paid for their commitment.
 - The border of the circle is different depending on whether or not the relation to the lobby is direct or indirect. Direct means they worked directly with them, indirect means they invited someone who works with them in the parliament. (<img width="150" alt="Capture d’écran 2024-04-18 à 3 40 18 PM" src="https://github.com/com-480-data-visualization/data-viz/assets/56971914/49b51048-1556-4f55-911a-f712b813df9d">). So there are two possible borders, one that is a continuous line for direct, and one that is a dashed line for indirect.
 - Extra idea : represent the statistical variance in interest groups (for example, the socialist party is very active, while the "Verts libéraux" are less active). So for example, see which parties have a lot of variance in them : some very active people, some very unactive.
+- We would also like to have a tree that shows where the user clicked, to facilitate going back up and for clarity.
 
 ## Milestone 3 (31st May, 5pm)
 
