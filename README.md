@@ -56,6 +56,26 @@ For the main visualization, we will need D3 and JavaScript, covered in lectures 
 - Extra idea : represent the statistical variance in interest groups (for example, the socialist party is very active, while the "Verts libéraux" are less active). So for example, see which parties have a lot of variance in them : some very active people, some very unactive.
 - We would also like to have a tree that shows where the user clicked, to facilitate going back up and for clarity.
 
+### Visualization repo
+
+In order to use [github-pages](https://pages.github.com/), we decided to host the code on our own organization's repository. The repository can be found [here](https://github.com/LaTcheam/LaTcheam.github.io/tree/main).
+
+Also, that repository is linked here in a [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) under [`visu`](/visu).
+In order to clone the repository with the submodule, you can use the following command:
+
+```bash
+git clone --recurse-submodules https://github.com/com-480-data-visualization/data-viz.git
+```
+
+If you already cloned the repository, you can use the following command:
+
+```bash
+git submodule update --init --recursive
+```
+
+> Note: the submodule is linked to a specific commit on our visualization repository. We will update it before every submission.
+> Nonetheless, if you want to see the latest version of the visualization, you can simply click on the submodule link and change the branch to `main`.
+
 ## Milestone 3 (31st May, 5pm)
 
 **80% of the final grade**
