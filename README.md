@@ -40,14 +40,16 @@ Our approach is to have one visualization, that regroups the most pertinent info
 **10% of the final grade**
 
 ## Sketch of the final product :
+
 ![Sketch](images/circles.png)
 ![Sketch2](images/sketch2.png)
 
+## Tools, lectures needed :
 
-## Tools, lectures needed : 
 For the main visualization, we will need D3 and JavaScript, covered in lectures 2, 3, 4 (“JavaScript”, “D3”). We will also obviously need data, covered in lecture 4 (“Data”), and ours is in JSON form. We will want the visualization to be interactive (with clickable circles that zoom in or out of the visualization, and that relates to lecture 5 (“Interaction”, “Interactive D3”). We will also try to be careful with colors to create something aesthetically pleasing, as well as meaningful (certain colours will represent certain parties, to be able to give a good ensemble view) (lecture 6 “perception, color”). And lastly, we will want the visualization to be contextualized and for that, lecture 12 (“Storytelling”) will be useful.
 
 ## Goals breakdown
+
 - Clean data, keep only useful features, make it usable
 - Create main visualization : a big circle for each main category of groups of interest, subcircles inside for more specific categorization (e.g, as in sketch : "Agriculture" has as a subcategory "Anti-OMG"), and inside, smaller circles, each representing a party, with inside the circles representing the people. The background of a person's circle is a specific color, representing the party they belong to, and people of the same party are grouped in the same circle.
 - The bigger the person's circle, the more efficient they are (there is a notion of efficience on LobbyWatch's website, here is how it looks on the website : <img width="150" alt="Capture d’écran 2024-04-18 à 3 35 13 PM" src="https://github.com/com-480-data-visualization/data-viz/assets/56971914/4f3bf4f3-05e8-4846-922e-0d00fc66aad7">). So there are 3 possible circle sizes.
@@ -60,7 +62,7 @@ For the main visualization, we will need D3 and JavaScript, covered in lectures 
 
 In order to use [github-pages](https://pages.github.com/), we decided to host the code on our own organization's repository. The repository can be found [here](https://github.com/LaTcheam/LaTcheam.github.io/tree/main).
 
-Also, that repository is linked here in a [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) under [`visu`](/visu).
+Also, that repository is linked here in a [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) under `visu`.
 In order to clone the repository with the submodule, you can use the following command:
 
 ```bash
