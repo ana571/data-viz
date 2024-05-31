@@ -80,4 +80,4 @@ git submodule update --init --recursive
 
 ## Milestone 3 (31st May, 5pm)
 The visualization code is accessible on a second github, linked above. It is hosted on github pages and coded using d3.js. Here is the link : https://latcheam.github.io/.
-You can scroll on the page to see the different visualizations and charts.
+You can scroll on the page to see the different visualizations and charts. To make sure we coded according to best practices, we checked our code with Biome.
