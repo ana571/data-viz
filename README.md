@@ -80,9 +80,3 @@ git submodule update --init --recursive
 
 ## Milestone 3 (31st May, 5pm)
 The visualization code is accessible on a second github, linked above. It is hosted on github pages and coded using d3.js. 
-**80% of the final grade**
-
-## Late policy
-
-- < 24h: 80% of the grade for the milestone
-- < 48h: 70% of the grade for the milestone
