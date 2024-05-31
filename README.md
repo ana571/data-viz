@@ -79,7 +79,7 @@ git submodule update --init --recursive
 > Nonetheless, if you want to see the latest version of the visualization, you can simply click on the submodule link and change the branch to `main`.
 
 ## Milestone 3 (31st May, 5pm)
-
+The visualization code is accessible on a second github, linked above. It is hosted on github pages and coded using d3.js. 
 **80% of the final grade**
 
 ## Late policy
